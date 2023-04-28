@@ -1,6 +1,7 @@
 /******** GLOBAL STYLES ********/
 body {
-
+    /* background-color: cornflowerblue; 
+    Tested to see if the stylesheets were linked */
 }
 
 h1,
@@ -31,7 +32,9 @@ p {
 }
 
 .content-wrapper {
-
+    width: 1200px;
+    margin: 0 auto;
+    overflow: auto;
 }
 
 /******** HEADER STYLES ********/
