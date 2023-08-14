@@ -44,18 +44,26 @@ p {
 }
 
 .content-wrapper {
-    width: 1200px;
-    margin: 0 auto;
-    overflow: auto;
+    width: 90%;
+    display: flex;
+    justify-content: center;
+    flex-flow: row wrap;
 }
 
 /******** HEADER STYLES ********/
+header {
+    display: flex;
+    justify-content: center;
+    text-align: center;
+}
+
 header h1 {
     /* outline: 3px dotted red; */
-    width: 300px;
+    /* width: 300px; */
+    width: 100%;
     margin: 0;
     padding: 36px 0;
-    float: left;
+    
 }
 
 header h1 span {
@@ -66,7 +74,7 @@ header nav {
     /* outline: 3px dotted red; */
     width: 300px;
     padding: 44px 0;
-    float: right;
+    
 }
 
 header nav ul {
@@ -80,7 +88,7 @@ header nav ul li {
     font-size: 14px;
     font-weight: bold;
     text-transform: uppercase;
-    display: inline-block;
+    width: 100%;
     padding: 0 10px;
 }
 
@@ -90,7 +98,7 @@ header nav ul li a {
 }
 
 /********  MAIN STYLES ********/
-/******** TOP SECTION ********/
+
 .main-image img {
     border-top: 3px solid #77A466;
     border-bottom: 3px solid #77A466;
@@ -102,7 +110,20 @@ header nav ul li a {
     padding: 5px 0;
 }
 
+/******** TOP SECTION ********/
+.top-section {
+    display: flex;
+    justify-content: center;
+}
+
+
+
 /******** BOTTOM SECTION ********/
+.bottom-section {
+    display: flex;
+    justify-content: center;
+}
+
 .bottom-section .content-wrapper {
    border-top: 5px solid #eee;
    border-bottom: 5px solid #eee;
@@ -113,28 +134,29 @@ header nav ul li a {
 .section-three {
     /* outline: 3px dotted red; */
     box-sizing: border-box;
-    float: left;
+    
     padding-left: 40px;
     padding-right: 40px;
 }
 
 .section-one {
-    width: 350px;
+    /* width: 350px; */
+    width: 100%;
     padding-left: 40px;
     
 }
 
 .section-two {
-    width: 500px;
+    /* width: 500px; */
+    width: 100%;
     border-right: 5px solid #eee;
     border-left: 5px solid #eee;
     
 }
 
 .section-three {
-    width: 350px;
-    
-    
+    /* width: 350px; */
+    width: 100%;
 }
 
 .bottom-section h3 {
@@ -158,6 +180,8 @@ header nav ul li a {
 footer {
     text-align: center;
     margin-top: 8px;
+    display: flex;
+    justify-content: center;
 }
 
 footer span {
