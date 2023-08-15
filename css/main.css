@@ -185,3 +185,32 @@ footer span {
     color: #45610E;
     text-transform: lowercase;
 }
+
+/* Media Query Tablet Styles */
+@media all and (mid-width: 768px){
+    .bottom-section .content-wrapper {
+        display: flex;
+        justify-content: space-evenly;
+     }
+
+     .section-one {
+        width: 29.16%;
+    }
+    
+    .section-two {
+        /* width: 500px; */
+        width: 41.68%;
+        border-right: 5px solid #eee;
+        border-left: 5px solid #eee;
+        padding: 0 10px;
+    }
+    
+    .section-three {
+        width: 29.16%;
+    }
+}
+
+/* Media Query Desktop Styles */
+@media all and (mid-width: 768px){
+
+}
