@@ -1,7 +1,11 @@
 /******** GLOBAL STYLES ********/
+html {
+    font-size: 16px;
+}
+
 body {
    font-family: 'Montserrat', Helvetica, Arial, sans-serif;
-   font-size: 16px;
+   font-size: .9em;
    color: #000000;
 }
 
@@ -14,32 +18,31 @@ h4 {
 }
 
 h1 {
-    font-size: 30px;
+    font-size: 1.875em;
     font-weight: bold;
     text-transform: uppercase;
-    
 }
 
 h2 {
-    font-size: 24px;
+    font-size: 1.5em;
     font-weight: bold;
     text-transform: uppercase;
 }
 
 h3 {
-    font-size: 20px;
+    font-size: 1.25em;
     font-weight: bold;
     text-transform: uppercase;
 }
 
 h4 {
-    font-size: 12px;
+    font-size: 0.75em;
     font-weight: bold;
     text-transform: uppercase;
 }
 
 p {
-    font-size: 16px;
+    font-size: 1rem;
     line-height: 36px;
 }
 
@@ -62,8 +65,8 @@ header h1 {
     /* width: 300px; */
     width: 100%;
     margin: 0;
-    padding: 36px 0;
-    
+    padding: 38px 0 20px 0;
+    border-bottom: 3px solid #77A466;
 }
 
 header h1 span {
@@ -80,16 +83,16 @@ header nav {
 header nav ul {
     padding: 0;
     margin: 0;
-    text-align: right;
-    
+    /* text-align: right; */
+    list-style: none;
 }
 
 header nav ul li {
-    font-size: 14px;
+    font-size: 0.9em;
     font-weight: bold;
     text-transform: uppercase;
     width: 100%;
-    padding: 0 10px;
+    padding: 10px 0;
 }
 
 header nav ul li a {
@@ -102,7 +105,11 @@ header nav ul li a {
 .main-image img {
     border-top: 3px solid #77A466;
     border-bottom: 3px solid #77A466;
+    width: 100%;
+    height: auto;
 }
+
+
 
 .main-title h2 {
     color: #45610E;
@@ -149,8 +156,10 @@ header nav ul li a {
 .section-two {
     /* width: 500px; */
     width: 100%;
-    border-right: 5px solid #eee;
-    border-left: 5px solid #eee;
+    /* border-right: 5px solid #eee;
+    border-left: 5px solid #eee; */
+    border-top: 5px solid #eee;
+   border-bottom: 5px solid #eee;
     
 }
 
@@ -185,7 +194,7 @@ footer {
 }
 
 footer span {
-    font-size: 14px;
+    font-size: 0.9rem;
     font-family: 'Galada', cursive;
     color: #45610E;
     text-transform: lowercase;
